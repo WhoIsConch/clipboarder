@@ -9,6 +9,21 @@ Clipboarder is built specifically for my current job, and its formatting is tail
 Clipboarder runs in the background and has no front-facing UI like a terminal, window, or tray icon. 
 It's recommended to install Clipboarder as a startup app so it's ready to use whenever your workstation is booted up.
 
+## Formatting Options
+
+Clipboarder includes two formatting options: Phone numbers and MAC Addresses. 
+Formatting options cannot be customized or changed.
+
+- **Phone Numbers** are formatted to `9999999999` from the following formats:
+  - `(999) 999-9999`
+  - `999) 999-9999`
+  - `999 999 9999`
+  - `999-999-9999`
+
+- **MAC Addresses** are formatted to `AAAA.AAAA.AAAA` from the following formats:
+  - `AA:AA:AA:AA:AA:AA`
+  - `AAAAAAAAAAAA`
+
 ## Building
 
 To build Clipboarder, ensure a compatible dart version is installed, then run:
